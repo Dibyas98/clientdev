@@ -1,0 +1,24 @@
+<div class="h-full w-full overflow-y-scroll">
+  <!-- Menu List -->
+
+
+  <ul class="gap-1 flex flex-col w-full" role="list">
+
+    
+      <li
+      *ngFor="let item of MenuList" 
+      class="h-[60px] flex bg-white w-full justify-center rounded-b-md drop-shadow-lg"
+      role="listitem"
+    >
+
+    <!-- APP MENU COMPONENT RENDERING -->
+    <a [routerLink]="item.link" class="w-full"><app-menu [MenuData]="item" class="w-full"></app-menu></a>
+    </li>
+
+
+    <!-- Fallback for empty list -->
+    <li *ngIf="!MenuList?.length" class="text-center text-white py-4">
+      No menus available.
+    </li>
+  </ul>
+</div>

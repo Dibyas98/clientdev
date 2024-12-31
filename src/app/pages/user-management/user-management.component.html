@@ -1,0 +1,15 @@
+<section class="w-ful">
+    <app-heading Title="Filter All">
+        <div class="sm:grid sm:grid-cols-12 gap-2">
+            <div class="sm:col-span-2">
+                <app-filter  [filterData]="FilterList" [filterTitle]="FilterTitel"></app-filter>
+            </div>
+            <div class="sm:col-span-2">
+                <app-filter  [filterData]="FilterList" filterTitle="SearchStatus"></app-filter>
+            </div>
+            <div class="sm:col-span-2">
+                <app-filter  [filterData]="FilterList" [filterTitle]="FilterTitel"></app-filter>
+            </div>
+        </div>
+    </app-heading>
+</section>

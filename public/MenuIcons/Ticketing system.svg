@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60.225" viewBox="0 0 60 60.225">
+  <g id="Ticketing_System" data-name="Ticketing System" transform="translate(-2 -1.775)">
+    <path id="Path_315" data-name="Path 315" d="M44,62H62V53a5,5,0,0,1,0-10V34H44Z" fill="#5fc2ff"/>
+    <path id="Path_316" data-name="Path 316" d="M42,34H2V62H42ZM38,55H6a1,1,0,0,1,0-2H38a1,1,0,0,1,0,2Zm0-6H6a1,1,0,0,1,0-2H38a1,1,0,0,1,0,2Zm0-6H16a1,1,0,0,1,0-2H38a1,1,0,0,1,0,2Z" fill="#5fc2ff"/>
+    <path id="Path_317" data-name="Path 317" d="M18.875,32l8.305-8.3a1,1,0,1,1,1.414,1.414L21.7,32h5.66l4.063-4.062a1,1,0,1,1,1.414,1.414L30.189,32h5.748a.981.981,0,0,1,.871,0h4.334L25.059,15.917,8.976,32Z" fill="#004a9f"/>
+    <path id="Path_318" data-name="Path 318" d="M59,21.574,52.636,15.21a5,5,0,1,1-7.071-7.071L39.2,1.775,26.473,14.5,43.971,32h4.6Z" fill="#004a9f"/>
+  </g>
+</svg>

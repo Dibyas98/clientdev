@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="52.99" viewBox="0 0 65 52.99">
+  <g id="Meetings_Reviews" data-name="Meetings &amp; Reviews" transform="translate(-569 -210)">
+    <circle id="Ellipse_26" data-name="Ellipse 26" cx="6.813" cy="6.813" r="6.813" transform="translate(577.327 228.925)" fill="#39b4ff"/>
+    <circle id="Ellipse_27" data-name="Ellipse 27" cx="6.813" cy="6.813" r="6.813" transform="translate(593.981 234.981)" fill="#39b4ff"/>
+    <circle id="Ellipse_28" data-name="Ellipse 28" cx="6.813" cy="6.813" r="6.813" transform="translate(611.392 228.925)" fill="#39b4ff"/>
+    <g id="Group_360" data-name="Group 360" transform="translate(569 210)">
+      <g id="Group_359" data-name="Group 359" transform="translate(0 0)">
+        <g id="Group_354" data-name="Group 354" transform="translate(0 0)">
+          <path id="Subtraction_15" data-name="Subtraction 15" d="M6.229,41.239H5a5.009,5.009,0,0,1-5-5V5A5.008,5.008,0,0,1,5,0H60a5.008,5.008,0,0,1,5,5V36.242a5.009,5.009,0,0,1-5,5h-.512V37.627H60a1.388,1.388,0,0,0,1.384-1.385V5A1.387,1.387,0,0,0,60,3.611H5A1.387,1.387,0,0,0,3.611,5V36.242A1.388,1.388,0,0,0,5,37.627H6.229v3.611Z" transform="translate(0 0)" fill="#002f65"/>
+        </g>
+      </g>
+      <g id="noun_people_1393009" transform="translate(3.5 18.262)">
+        <g id="Group" transform="translate(0 0)">
+          <path id="Compound_Path" data-name="Compound Path" d="M3.6,47.154v2.809a1.248,1.248,0,0,0,2.5,0V47.154a9.425,9.425,0,0,1,18.351-3A11.86,11.86,0,0,0,20.7,52.834v2.809a1.248,1.248,0,0,0,2.5,0V52.834a9.425,9.425,0,1,1,18.788,0v2.809a1.248,1.248,0,0,0,2.5,0V52.834a11.86,11.86,0,0,0-3.745-8.676,9.425,9.425,0,0,1,18.289,3v2.809a1.248,1.248,0,0,0,2.5,0V47.154a11.922,11.922,0,0,0-7.3-10.923,7.8,7.8,0,1,0-9.3,0,11.86,11.86,0,0,0-6.3,6.367l-1.436-.749a7.8,7.8,0,1,0-9.3,0l-1.436.749a11.86,11.86,0,0,0-6.3-6.367,7.8,7.8,0,1,0-9.3,0A11.922,11.922,0,0,0,3.6,47.154ZM44.3,29.988A5.306,5.306,0,1,1,49.6,35.294,5.306,5.306,0,0,1,44.3,29.988Zm-17.04,5.68a5.306,5.306,0,1,1,5.306,5.243,5.306,5.306,0,0,1-5.306-5.243Zm-17.04-5.68a5.306,5.306,0,1,1,5.306,5.306A5.306,5.306,0,0,1,10.216,29.988Z" transform="translate(-3.6 -22.163)" fill="#002f65"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

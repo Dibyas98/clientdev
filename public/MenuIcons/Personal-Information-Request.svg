@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.119" height="53" viewBox="0 0 60.119 53">
+  <g id="Personal_Information_Request" data-name="Personal Information Request" transform="translate(-10 -28)">
+    <g id="Group_350" data-name="Group 350" transform="translate(10 28)">
+      <g id="Group_349" data-name="Group 349">
+        <path id="Path_484" data-name="Path 484" d="M41.505,34.809V31.223a.791.791,0,0,0-.791-.791H27.606a.791.791,0,0,0-.791.791v3.586H21.729a.791.791,0,0,0-.791.791V54.931a.791.791,0,0,0,.791.791h4.45q-3.018.164-7.3.632h0A.791.791,0,0,1,18,55.567V32.2a.791.791,0,0,1,.791-.791h5.188V28.791A.791.791,0,0,1,24.77,28H42.918a.791.791,0,0,1,.791.791V31.4H68.627a.791.791,0,0,1,.791.791V57.864a.791.791,0,0,1-.776.791q-20.35.4-30.075-.015c-2.934-.125-4.313-2.616-7.345-2.918H65.689a.791.791,0,0,0,.791-.791V35.6a.791.791,0,0,0-.791-.791Z" transform="translate(-11.672 -28)" fill="#5fc2ff" fill-rule="evenodd"/>
+        <circle id="Ellipse_22" data-name="Ellipse 22" cx="5.142" cy="5.142" r="5.142" transform="translate(27.687 7.91)" fill="#5fc2ff"/>
+        <rect id="Rectangle_129" data-name="Rectangle 129" width="18.194" height="7.119" rx="1" transform="translate(23.731 18.985)" fill="#5fc2ff"/>
+        <path id="Path_485" data-name="Path 485" d="M64.859,71.023l-11.55,4.832h-.474V72.222L48.948,68.33H41.433l-6.25-6.259L31.915,61l-8.388,1.309H10V77.36H22.9L33.426,87.9H52.393l17.726-8.039V74.773Zm2.254,6.855L51.774,84.885H34.67L24.149,74.35H13.006V65.32H23.625l8.039-1.234,1.9.623,6.622,6.631H47.7l2.125,2.128v2.387H39.179l-4.067-4.073L32.987,73.91l4.948,4.955h15.93L64.385,74.4l2.728,1.928Z" transform="translate(-10 -34.896)" fill="#004a9f" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
