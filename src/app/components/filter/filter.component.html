@@ -9,7 +9,7 @@
 
   <!-- Dropdown container with 'dropdown-container' class -->
   <div
-    [class]="'absolute left-0 top-9 bg-white p-[15px] pt-5 rounded-md text-black '+'dropdown-menu'"
+  [class]="'absolute max-h-60 overflow-y-auto left-0 top-9 bg-white p-[15px] pt-5 rounded-md text-black ' + (isScrollable ? 'scrollable' : '')"
     *ngIf="isOpen"
   >
     <input

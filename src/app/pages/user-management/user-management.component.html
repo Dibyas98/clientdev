@@ -18,7 +18,14 @@
             [menuItems]="SelectStatusList">
           </app-filter>
           </div>
-         
+          <div class="sm:col-span-2">
+            <app-filter
+            [isOpen]="activeDropdown === 'third'"
+            (toggle)="handleToggle('third')"
+            [label]="SelectuserTitle"
+            [menuItems]="SelectUserList">
+          </app-filter>
+          </div>
       </div>
   </app-heading>
 </section>

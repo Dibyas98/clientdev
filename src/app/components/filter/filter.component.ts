@@ -41,4 +41,17 @@ export class FilterComponent {
        this.isOpen = false; // Close the dropdown if the click is outside
      }
    }
+   isScrollable = false; // Flag to track scrollability
+
+    // Check if the dropdown is scrollable
+  ngAfterViewChecked() {
+    const dropdownList = this.elRef.nativeElement.querySelector('ul');
+    if (dropdownList) {
+      if (dropdownList.scrollHeight > dropdownList.clientHeight) {
+        this.isScrollable = true; // Set scrollable flag if content overflows
+      } else {
+        this.isScrollable = false; // Reset scrollable flag if content fits
+      }
+    }
+  }
 }

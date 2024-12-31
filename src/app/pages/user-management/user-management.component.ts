@@ -4,10 +4,12 @@ import { FilterComponent } from '../../components/filter/filter.component';
 import {
   UserManagementsearchDepartmentList,
   UserManagementSelectStatusList,
+  UserManagementSelectUserTypeList,
 } from '../../../Data/FilterList';
 import {
   UserManagementsearchDepartmentTitle,
   UserManagementSelectStatusTitle,
+  UserManagementSelectUserTypeTitle,
 } from '../../../Data/FilterTitle';
 
 @Component({
@@ -21,29 +23,8 @@ export class UserManagementComponent {
   SearchDepartmnetFilterTitel: string = UserManagementsearchDepartmentTitle;
   SelectStatusList: any = UserManagementSelectStatusList;
   SelectStatusTille: string = UserManagementSelectStatusTitle;
-
-  // isActive: string | null = null;
-  // toggleDropDown(dropdown: string): void {
-  //   // event.stopPropagation(); // Prevent event propagation to the document
-  //   // const target = event.target as HTMLElement;
-  //   // if (this.isActive === false) {
-  //   //   this.isActive = target?.innerText;
-  //   //   console.log("if "+this.isActive);
-  //   // } else if (this.isActive === target?.innerText) {
-  //   //   this.isActive = false;
-  //   //   console.log("else if "+this.isActive);
-  //   // } else {
-  //   //   this.isActive = target?.innerText;
-  //   //   console.log("else "+this.isActive);
-  //   // }
-  //   this.isActive = this.isActive === dropdown ? null : dropdown;
-
-  //   // Toggle dropdown visibility
-  // }
-
-  // toogleDropDownOutside(): void {
-  //   // this.isActive = false;
-  // }
+  SelectuserTitle: string = UserManagementSelectUserTypeTitle;
+  SelectUserList:string[]=UserManagementSelectUserTypeList
 
 
   activeDropdown: string | null = null;
