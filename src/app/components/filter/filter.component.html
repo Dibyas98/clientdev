@@ -1,37 +1,31 @@
 <div
   class="relative border-2 border-blue-400 w-full text-sm rounded-md hover:bg-[#129bf7d6] hover:text-black"
-  [ngClass]="isActive ? 'text-black bg-[#129bf7d6]' : 'text-[#129BF7]'"
-  (click)="toggleDropDown($event)"
+  (click)="onToggle()"
 >
-  <p class="w-full hover:text-black p-3 py-1">{{ filterTitle }}</p>
+  <p *ngIf="!selectedFilter" class="w-full hover:text-black p-3 py-1">{{ label }}</p>
+  <p *ngIf="selectedFilter" class="w-full hover:text-black p-3 py-1">{{ selectedFilter }}</p>
+
   <span></span>
 
   <!-- Dropdown container with 'dropdown-container' class -->
   <div
-    *ngIf="isActive"
-    [class]="'absolute left-0 top-9 bg-white p-[15px] pt-5 rounded-md text-black '+filterTitle+'dropdown-container'"
-    (click)="preventClickInsideDropdown($event)"
+    [class]="'absolute left-0 top-9 bg-white p-[15px] pt-5 rounded-md text-black '+'dropdown-menu'"
+    *ngIf="isOpen"
   >
     <input
       type="text"
       placeholder="Search Department"
       class="border my-3 p-2 rounded-md"
+      (click)="preventClickInsideDropdown($event)"
     />
     <ul class="flex flex-col gap-3">
-      <li
-        *ngFor="let item of filterData"
-        class="flex gap-2 hover:text-[#129BF7]"
+      <li  *ngFor="let item of menuItems"
+        class="flex gap-2 hover:text-[#129BF7] "
         (click)="selectDepartment(item)"
       >
-        <input
-          type="radio"
-          name="selectDepartment"
-          [id]="item"
-          [value]="item"
-          [checked]="selectedDepartment === item"
-        />
         <label [for]="item">{{ item }}</label>
       </li>
     </ul>
   </div>
 </div>
+<div>

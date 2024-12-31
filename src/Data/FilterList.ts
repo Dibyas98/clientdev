@@ -4,3 +4,9 @@ export const UserManagementsearchDepartmentList=[
     "Testing Three",
     "Testing Two"
   ]
+
+
+  export const UserManagementSelectStatusList=[
+    "Active",
+    "Inactive"
+  ]
